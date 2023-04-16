@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Insognito",
+    "version": "1.0",
+    "description": "Prevents anybody notice you seen anything on instagram.",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "*://*.instagram.com/*",
+        "webRequest",
+        "webRequestBlocking",
+        "storage"
+    ]
+}

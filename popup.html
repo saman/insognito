@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Insognito</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        
+        .checkbox {
+            width: 120px;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        input,
+        label {
+            margin: 0 5px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        You have visited <strong><span id="counter">0</span></strong> insognitos.
+    </p>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="blockingCheckbox">
+            Insognito Mode
+        </label>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
