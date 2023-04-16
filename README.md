@@ -1,2 +1,2 @@
 # Insognito
-A Google Chrome extention activates the private mode on instagram website.
+A Google Chrome extension activates the private mode on instagram website.
